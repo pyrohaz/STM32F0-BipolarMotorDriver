@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.3 mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-Stepper1\stm32_lib\inc -I..\..\..\workspace\STM32F0-Stepper1\cmsis_core -I..\..\..\workspace\STM32F0-Stepper1\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\STM32F0-Stepper1\stm32_lib -I..\..\..\workspace\STM32F0-Stepper1">
+      <target file="stm32f0xx_gpio.o" lastModified="1583a9c420d">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="1583a926f90"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="1583a9c3c6e">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="1583a926f9d"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="1583a9c406e">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="1583a926fb5"/>
+      </target>
+      <target file="main.o" lastModified="1583bc38370">
+         <source file="..\..\..\main.c" lastModified="1583bc37c12"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="1583a9c3eda">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="1583a926fa6"/>
+      </target>
+   </processor>
+</history>
